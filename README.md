@@ -8,6 +8,10 @@ Tento projekt vznikl jako reakce na předložení [návrhu zákona](http://www.p
 
 Tento jednoduchý bot každý den prohledá příspěvky na síti Twitter, a ke každému, který zmiňuje osobu či handle mladého (či starého, proč ne) Klause připojí náhodně vybranou osobní urážku.
 
+<p align="center">
+  <img src="sprostarny.png" alt="výčet sprosťáren"/>
+</p>
+
 Věřím, že tak důstojným způsobem upozorní na absurditu počínání pana poslance.
 
 Bot je zatím neaktivní, jeho spuštění plánuju na den vstupu zákona v platnost.
