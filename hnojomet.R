@@ -32,10 +32,10 @@ sprostarny <- c('Václav Klaus Jr. má malý penis',
 
 
 for (i in seq_along(tweets$text)) {
-  urazka <- paste0('A víš, @', tweets$name,', že ', sample(sprostarny, 1),'?')
+  urazka <- paste0('A víš, @', tweets$name[i],', že ', sample(sprostarny, 1),'? #SvobodaProjevu')
   
   post_tweet(status = urazka, 
              token = twitter_token, 
-             in_reply_to_status_id = tweets$id)
+             in_reply_to_status_id = tweets$id[i])
   
 }
